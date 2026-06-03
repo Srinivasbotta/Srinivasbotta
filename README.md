@@ -1,269 +1,455 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--           SRINIVASU BOTTA — GitHub Profile README             -->
-<!--              Theme: Futuristic Glassmorphism                  -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--
+███████╗██████╗ ██╗███╗   ██╗██╗██╗   ██╗ █████╗ ███████╗██╗   ██╗
+██╔════╝██╔══██╗██║████╗  ██║██║██║   ██║██╔══██╗██╔════╝██║   ██║
+███████╗██████╔╝██║██╔██╗ ██║██║██║   ██║███████║███████╗██║   ██║
+╚════██║██╔══██╗██║██║╚██╗██║██║╚██╗ ██╔╝██╔══██║╚════██║██║   ██║
+███████║██║  ██║██║██║ ╚████║██║ ╚████╔╝ ██║  ██║███████║╚██████╔╝
+╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝  ╚═╝  ╚═╝╚══════╝ ╚═════╝
+                  BOTTA — AI & Data Science
+-->
 
 <div align="center">
 
-<!-- ══════════════ ANIMATED HEADER BANNER ══════════════ -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6366f1,100:a855f7&height=200&section=header&text=Srinivasu%20Botta&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Engineer&descSize=18&descAlignY=58&descColor=a5b4fc&animation=fadeIn" />
-
-<!-- ══════════════ TYPING ANIMATION ══════════════ -->
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=🤖+Machine+Learning+Engineer;🧠+Deep+Learning+Enthusiast;📊+Data+Science+%26+Analytics;🔬+AI+Researcher+%26+Builder;✨+Turning+Data+into+Intelligence" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- ══════════════ PROFILE BADGES ══════════════ -->
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srinivasub)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinivasub@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%236366f1.svg?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)](#)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=SrinivasuBotta&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/SrinivasuBotta?style=for-the-badge&color=a855f7&labelColor=0d1117)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1a1040,60:2d1b69,100:6366f1&height=220&section=header&text=Srinivasu%20Botta&fontSize=56&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=AI%20%26%20Data%20Science%20%7C%20ML%20Engineer%20%7C%20Deep%20Learning&descSize=17&descAlignY=60&descColor=a5b4fc&animation=fadeIn&stroke=6366f1&strokeWidth=1" />
 
 </div>
 
 ---
 
-<!-- ══════════════ ABOUT ME ══════════════ -->
+<div align="center">
 
-<img align="right" alt="AI Brain GIF" width="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd2bHlzZDJ3NnF1NHZ1N2ZtY2lmZGd3aGE4eHlkNjFoc3hldGFtZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&multiline=false&width=650&lines=print(%22Hello%2C+World!+I'm+Srinivasu+Botta%22);import+torch+%23+Deep+Learning+Enthusiast+%F0%9F%A7%A0;model.fit(X_train%2C+y_train)+%23+ML+Engineer+%F0%9F%A4%96;df.describe()+%23+Data+Science+Explorer+%F0%9F%93%8A;llm.generate(%22Next+Big+Idea%22)+%23+AI+Builder+%F0%9F%9A%80)](https://git.io/typing-svg)
 
-## ✦ About Me
-
-```python
-class SrinivasuBotta:
-    def __init__(self):
-        self.name       = "Srinivasu Botta"
-        self.role       = "AI & Data Science Student"
-        self.location   = "Andhra Pradesh, India 🇮🇳"
-        self.education  = "B.Tech — AI & Data Science"
-
-    @property
-    def interests(self):
-        return [
-            "🤖 Machine Learning & Deep Learning",
-            "📊 Data Science & Analytics",
-            "🧠 Neural Networks & NLP",
-            "👁️ Computer Vision",
-            "🔬 AI Research & Innovation",
-        ]
-
-    @property
-    def currently(self):
-        return {
-            "learning"  : "Transformers, LLMs & GenAI",
-            "building"  : "AI-powered real-world projects",
-            "exploring" : "MLOps & Model Deployment",
-            "goal"      : "Solve problems with Intelligent Systems",
-        }
-
-    def __str__(self):
-        return "Turning raw data into intelligent decisions 🚀"
-```
-
-<br clear="right"/>
+</div>
 
 ---
 
-<!-- ══════════════ TECH STACK ══════════════ -->
+<div align="center">
 
-## ⚡ Tech Stack & Tools
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srinivasu-botta)
+[![Gmail](https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinivasub@gmail.com)
+[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com)
+[![HuggingFace](https://img.shields.io/badge/-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white)](#)
+
+![](https://komarev.com/ghpvc/?username=SrinivasuBotta&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
+
+---
+
+## 🧠 About Me
+
+```python
+#!/usr/bin/env python3
+# ============================================================
+#   srinivasu_botta.py  —  Who am I?
+# ============================================================
+
+from dataclasses import dataclass, field
+from typing import List, Dict
+
+@dataclass
+class SrinivasuBotta:
+    """
+    AI & Data Science Engineer | Deep Learning Researcher
+    Building intelligent systems that decode reality through data.
+    """
+
+    name:       str  = "Srinivasu Botta"
+    role:       str  = "AI & Data Science Student"
+    location:   str  = "Andhra Pradesh, India 🇮🇳"
+    education:  str  = "B.Tech — Artificial Intelligence & Data Science"
+    status:     str  = "Open to Internships & Research Collaborations 🚀"
+
+    skills: List[str] = field(default_factory=lambda: [
+        "Machine Learning",  "Deep Learning",     "Neural Networks",
+        "Natural Language Processing",             "Computer Vision",
+        "Data Science",      "Predictive Modeling","MLOps",
+    ])
+
+    tech_stack: Dict[str, List[str]] = field(default_factory=lambda: {
+        "Languages":  ["Python 🐍", "R", "SQL", "C++"],
+        "ML/DL":      ["TensorFlow", "PyTorch", "Keras", "Scikit-learn"],
+        "NLP":        ["Hugging Face", "Transformers", "NLTK", "spaCy"],
+        "Vision":     ["OpenCV", "YOLO", "Pillow"],
+        "Data":       ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly"],
+        "Deploy":     ["Streamlit", "Flask", "FastAPI", "Docker"],
+        "Cloud":      ["AWS", "GCP", "Azure"],
+        "Databases":  ["MySQL", "MongoDB", "PostgreSQL"],
+    })
+
+    currently_learning: List[str] = field(default_factory=lambda: [
+        "🤗  Large Language Models (LLMs) & Prompt Engineering",
+        "⚡  MLOps & Model Deployment at Scale",
+        "🔭  Retrieval-Augmented Generation (RAG) Pipelines",
+        "🌐  Multimodal AI — Vision + Language",
+    ])
+
+    fun_facts: List[str] = field(default_factory=lambda: [
+        "I believe every dataset has a story waiting to be told.",
+        "I debug models the way detectives solve mysteries.",
+        "Coffee ☕ + Python = my production deployment pipeline.",
+    ])
+
+    def greet(self) -> str:
+        return (
+            "Hi there! 👋 I'm passionate about building AI systems\n"
+            "that solve real-world problems. Let's connect and build\n"
+            "something incredible together! 🤝"
+        )
+
+
+if __name__ == "__main__":
+    me = SrinivasuBotta()
+    print(me.greet())
+
+# Output:
+# Hi there! 👋 I'm passionate about building AI systems
+# that solve real-world problems. Let's connect and build
+# something incredible together! 🤝
+```
+
+---
+
+## ⚡ Tech Stack
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                      CORE TECH ARSENAL                          ║
+╠══════════════════╦═══════════════════════════════════════════════╣
+║  LANGUAGES       ║  Python · R · SQL · C++                      ║
+╠══════════════════╬═══════════════════════════════════════════════╣
+║  ML / DL         ║  TensorFlow · PyTorch · Keras · Scikit-learn ║
+╠══════════════════╬═══════════════════════════════════════════════╣
+║  NLP             ║  HuggingFace · Transformers · NLTK · spaCy   ║
+╠══════════════════╬═══════════════════════════════════════════════╣
+║  VISION          ║  OpenCV · YOLO · Pillow                       ║
+╠══════════════════╬═══════════════════════════════════════════════╣
+║  DATA            ║  Pandas · NumPy · Matplotlib · Plotly         ║
+╠══════════════════╬═══════════════════════════════════════════════╣
+║  DEPLOY          ║  Streamlit · Flask · FastAPI · Docker         ║
+╠══════════════════╬═══════════════════════════════════════════════╣
+║  CLOUD           ║  AWS · GCP · Azure                            ║
+╠══════════════════╬═══════════════════════════════════════════════╣
+║  DATABASES       ║  MySQL · MongoDB · PostgreSQL                 ║
+╚══════════════════╩═══════════════════════════════════════════════╝
+```
 
 <div align="center">
 
-### 🐍 Languages
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![R](https://img.shields.io/badge/R-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-### 🤖 AI / ML / DL
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-### 📊 Data Science
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-5C7FA5?style=for-the-badge&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-### 🛠️ Tools & Platforms
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-### ☁️ Cloud
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VSCode-0078d4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
 ---
 
-<!-- ══════════════ GITHUB STATS ══════════════ -->
+## 📊 Skill Proficiency
 
-## 📈 GitHub Analytics
+```python
+# skill_matrix.py  —  Honest self-assessment (0–100)
 
-<div align="center">
+skill_matrix = {
+    # ─── Core Programming ───────────────────────────────────
+    "Python":               {"level": 92, "bar": "█████████▒"},
+    "SQL":                  {"level": 80, "bar": "████████░░"},
+    "R":                    {"level": 65, "bar": "██████▒░░░"},
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SrinivasuBotta&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=c9d1d9&ring_color=6366f1"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrinivasuBotta&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9"/>
+    # ─── Machine Learning ───────────────────────────────────
+    "Machine Learning":     {"level": 90, "bar": "█████████░"},
+    "Deep Learning":        {"level": 85, "bar": "████████▒░"},
+    "Feature Engineering":  {"level": 82, "bar": "████████░░"},
 
-<img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=SrinivasuBotta&theme=tokyonight&hide_border=true&background=0d1117&ring=6366f1&fire=a855f7&currStreakLabel=a5b4fc&sideLabels=a5b4fc&stroke=6366f1"/>
+    # ─── Specialized AI ─────────────────────────────────────
+    "NLP / LLMs":           {"level": 78, "bar": "███████▒░░"},
+    "Computer Vision":      {"level": 74, "bar": "███████░░░"},
+    "Time Series":          {"level": 72, "bar": "███████░░░"},
 
-<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=SrinivasuBotta&bg_color=0d1117&color=a5b4fc&line=6366f1&point=a855f7&area=true&hide_border=true&area_color=6366f1"/>
+    # ─── Data & Deployment ──────────────────────────────────
+    "Data Analysis":        {"level": 88, "bar": "████████▒░"},
+    "Data Visualization":   {"level": 84, "bar": "████████░░"},
+    "MLOps / Deployment":   {"level": 62, "bar": "██████░░░░"},
+}
 
-</div>
+for skill, info in skill_matrix.items():
+    print(f"  {skill:<24}  {info['bar']}  {info['level']}%")
 
----
-
-<!-- ══════════════ FEATURED PROJECTS ══════════════ -->
-
-## 🚀 Featured AI/ML Projects
-
-<div align="center">
-
-| 🔬 Project | 💡 Description | 🛠️ Stack | ⭐ |
-|:---:|:---|:---:|:---:|
-| **🧠 Neural Image Classifier** | Deep CNN model for multi-class image classification with 95%+ accuracy | `PyTorch` `CNN` `OpenCV` | ⭐⭐⭐ |
-| **📊 Predictive Analytics Dashboard** | End-to-end ML pipeline with real-time data visualization | `Scikit-learn` `Streamlit` `Pandas` | ⭐⭐⭐ |
-| **💬 NLP Sentiment Engine** | BERT-based sentiment analysis for customer reviews | `HuggingFace` `Transformers` `Flask` | ⭐⭐⭐ |
-| **📈 Stock Price Predictor** | LSTM time-series forecasting model for market trends | `TensorFlow` `LSTM` `Yahoo Finance` | ⭐⭐ |
-| **🎯 Recommendation System** | Collaborative filtering model for personalized suggestions | `Python` `Surprise` `SQL` | ⭐⭐ |
-
-</div>
-
-> 💡 *Explore all projects on my [repositories tab](https://github.com/SrinivasuBotta?tab=repositories)*
-
----
-
-<!-- ══════════════ SKILLS RADAR ══════════════ -->
-
-## 🎯 Expertise Breakdown
-
-```
-Machine Learning      ████████████████████  90%
-Deep Learning         ██████████████████░░  85%
-Data Analysis         ███████████████████░  88%
-Python Programming    ████████████████████  92%
-Data Visualization    ████████████████░░░░  78%
-NLP / Text AI         ███████████████░░░░░  74%
-Computer Vision       ██████████████░░░░░░  70%
-MLOps / Deployment    ████████████░░░░░░░░  60%
+# Output:
+#   Python                    █████████▒  92%
+#   SQL                       ████████░░  80%
+#   R                         ██████▒░░░  65%
+#   Machine Learning          █████████░  90%
+#   Deep Learning             ████████▒░  85%
+#   Feature Engineering       ████████░░  82%
+#   NLP / LLMs                ███████▒░░  78%
+#   Computer Vision           ███████░░░  74%
+#   Time Series               ███████░░░  72%
+#   Data Analysis             ████████▒░  88%
+#   Data Visualization        ████████░░  84%
+#   MLOps / Deployment        ██████░░░░  62%
 ```
 
 ---
 
-<!-- ══════════════ LEARNING JOURNEY ══════════════ -->
+## 🚀 Featured Projects
 
-## 🌱 Currently Exploring
+```bash
+# ─────────────────────────────────────────────────────────────
+#  srinivasu@github:~/projects$ ls -la --sort=stars
+# ─────────────────────────────────────────────────────────────
+
+PROJECT                     STACK                       HIGHLIGHTS
+───────────────────────────────────────────────────────────────────
+🧠 neural-image-classifier   PyTorch · CNN · OpenCV      95%+ accuracy
+   Multi-class deep CNN for image recognition            Production-ready
+
+📊 ml-analytics-dashboard    Scikit-learn · Streamlit    End-to-end pipeline
+   Real-time predictive analytics & visualization        Interactive UI
+
+💬 nlp-sentiment-engine      HuggingFace · BERT · Flask  Fine-tuned transformer
+   Customer review sentiment analysis API                REST API deployed
+
+📈 stock-lstm-predictor      TensorFlow · LSTM · Pandas  Time-series forecasting
+   Market trend prediction using sequence modeling        15% MAPE achieved
+
+🎯 ai-recommender-system     Python · Surprise · SQL     Collaborative filtering
+   Personalized content recommendation engine            1M+ interactions
+
+🔍 cv-object-detector        YOLO · OpenCV · FastAPI     Real-time inference
+   Real-time object detection & tracking pipeline        30 FPS on CPU
+
+───────────────────────────────────────────────────────────────────
+# View all: github.com/SrinivasuBotta?tab=repositories
+```
+
+---
+
+## 📈 GitHub Stats
 
 <div align="center">
 
-```mermaid
-graph LR
-    A[🎓 AI & DS Student] --> B[📚 Core ML/DL]
-    B --> C[🤗 LLMs & GenAI]
-    C --> D[🚀 Real Projects]
-    D --> E[☁️ MLOps & Deploy]
-    E --> F[🌍 AI for Impact]
-    style A fill:#6366f1,stroke:#a5b4fc,color:#fff
-    style B fill:#7c3aed,stroke:#a5b4fc,color:#fff
-    style C fill:#a855f7,stroke:#a5b4fc,color:#fff
-    style D fill:#6366f1,stroke:#a5b4fc,color:#fff
-    style E fill:#7c3aed,stroke:#a5b4fc,color:#fff
-    style F fill:#a855f7,stroke:#a5b4fc,color:#fff
-```
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=SrinivasuBotta&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=c9d1d9&ring_color=6366f1&border_radius=12"/>
+<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrinivasuBotta&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&border_radius=12"/>
+
+<img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=SrinivasuBotta&theme=tokyonight&hide_border=true&background=0d1117&ring=6366f1&fire=a855f7&currStreakLabel=a5b4fc&sideLabels=a5b4fc&sideNums=ffffff&currStreakNum=ffffff&stroke=6366f1&border_radius=12"/>
+
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=SrinivasuBotta&bg_color=0d1117&color=a5b4fc&line=6366f1&point=a855f7&area=true&hide_border=true&area_color=6366f1&radius=12"/>
 
 </div>
 
 ---
 
-<!-- ══════════════ ACHIEVEMENTS ══════════════ -->
-
-## 🏆 Achievements & Certifications
+## 🏆 Trophies
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=SrinivasuBotta&theme=discord&no-frame=true&no-bg=true&margin-w=6&column=7)
-
-</div>
-
-<br/>
-
-| 🎖️ Certification | 🏛️ Platform | 📅 Year |
-|:---|:---:|:---:|
-| 🤖 Machine Learning Specialization | Coursera / Andrew Ng | 2024 |
-| 🧠 Deep Learning Specialization | Coursera / deeplearning.ai | 2024 |
-| 📊 Data Science Professional | IBM / Coursera | 2024 |
-| 🐍 Python for Data Science | IBM / edX | 2023 |
-| ☁️ Google Cloud ML Engineer | Google Cloud Skills Boost | 2024 |
-
----
-
-<!-- ══════════════ CONNECT ══════════════ -->
-
-## 🌐 Let's Connect & Collaborate
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════╗
-║   Open to: Research Collabs · Internships        ║
-║            Open Source · AI Projects             ║
-║   Reach me: srinivasub@gmail.com                 ║
-╚══════════════════════════════════════════════════╝
-```
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's%20Connect!-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srinivasub)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out!-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinivasub@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SrinivasuBotta)
+![Trophies](https://github-profile-trophy.vercel.app/?username=SrinivasuBotta&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=7)
 
 </div>
 
 ---
 
-<!-- ══════════════ QUOTE ══════════════ -->
+## 🎓 Certifications & Achievements
+
+```json
+{
+  "certifications": [
+    {
+      "title": "Machine Learning Specialization",
+      "issuer": "Coursera — Andrew Ng / DeepLearning.AI",
+      "year": 2024,
+      "status": "✅ Completed"
+    },
+    {
+      "title": "Deep Learning Specialization",
+      "issuer": "Coursera — DeepLearning.AI",
+      "year": 2024,
+      "status": "✅ Completed"
+    },
+    {
+      "title": "IBM Data Science Professional",
+      "issuer": "IBM / Coursera",
+      "year": 2024,
+      "status": "✅ Completed"
+    },
+    {
+      "title": "Google Cloud ML Engineer",
+      "issuer": "Google Cloud Skills Boost",
+      "year": 2024,
+      "status": "✅ Completed"
+    },
+    {
+      "title": "Python for Data Science & AI",
+      "issuer": "IBM / edX",
+      "year": 2023,
+      "status": "✅ Completed"
+    },
+    {
+      "title": "TensorFlow Developer Certificate",
+      "issuer": "Google",
+      "year": 2024,
+      "status": "🔄 In Progress"
+    }
+  ],
+  "achievements": {
+    "projects_built":     "12+",
+    "ml_models_trained":  "20+",
+    "datasets_explored":  "30+",
+    "github_commits":     "500+",
+    "kaggle_competitions": "5+"
+  }
+}
+```
+
+---
+
+## 🗺️ Learning Roadmap
+
+```
+  2023 ──────────────────────────────────────────────────────▶ 2025+
+  │
+  ├─── [✅] Python & Data Science Fundamentals
+  │         └─▶ Pandas · NumPy · Matplotlib · EDA
+  │
+  ├─── [✅] Classical Machine Learning
+  │         └─▶ Regression · Classification · Clustering · SVM
+  │
+  ├─── [✅] Deep Learning & Neural Networks
+  │         └─▶ CNNs · RNNs · LSTMs · Transformers
+  │
+  ├─── [✅] Computer Vision & NLP
+  │         └─▶ YOLO · BERT · Sentiment Analysis · Object Detection
+  │
+  ├─── [🔄] Large Language Models & GenAI
+  │         └─▶ LLMs · RAG · Prompt Engineering · Fine-tuning
+  │
+  ├─── [🔄] MLOps & Production AI
+  │         └─▶ Docker · CI/CD · Model Monitoring · FastAPI
+  │
+  └─── [📌] Multimodal AI & AI Agents (Next Goal)
+            └─▶ Vision-Language Models · AutoGPT · LangChain
+
+  Legend:  ✅ Completed  |  🔄 In Progress  |  📌 Up Next
+```
+
+---
+
+## 💡 Dev Philosophy
+
+```python
+# philosophy.py  —  How I think about AI
+
+class DevPhilosophy:
+
+    @staticmethod
+    def on_data() -> str:
+        return """
+        Data is not just numbers — it's the fingerprint of reality.
+        Every row tells a story; every pattern reveals a truth.
+        My job is to listen closely enough to hear it.
+        """
+
+    @staticmethod
+    def on_models() -> str:
+        return """
+        A model is only as good as the problem it understands.
+        Build with purpose. Evaluate with honesty. Deploy with care.
+        """
+
+    @staticmethod
+    def on_learning() -> str:
+        return """
+        The best AI practitioners I know never stopped being students.
+        Stay curious. Break things. Build them better.
+        """
+
+    @staticmethod
+    def on_impact() -> str:
+        return """
+        Technology means nothing if it doesn't improve lives.
+        I build AI not just because I can — but because it should matter.
+        """
+
+
+if __name__ == "__main__":
+    p = DevPhilosophy()
+    print(p.on_data())
+    print(p.on_models())
+    print(p.on_learning())
+    print(p.on_impact())
+```
+
+---
+
+## 🌐 Connect With Me
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║     "The best way to predict the future is to build it."        ║
+║                                         — Alan Kay              ║
+║                                                                  ║
+║   💼  LinkedIn  :  linkedin.com/in/srinivasu-botta              ║
+║   📧  Email     :  srinivasub@gmail.com                         ║
+║   📊  Kaggle    :  kaggle.com/srinivasub                        ║
+║   🤗  HuggingFace: huggingface.co/srinivasub                    ║
+║   🌐  Portfolio  :  srinivasub.dev                              ║
+║                                                                  ║
+║   🤝  Open to: Research · Internships · Open Source · Collabs   ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
 <div align="center">
 
-> *"Data is the new oil, but intelligence is the engine that refines it."* ✨
->
-> — **Srinivasu Botta**
-
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:a855f7,50:6366f1,100:0d1117&height=120&section=footer&animation=fadeIn"/>
+[![LinkedIn](https://img.shields.io/badge/-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srinivasu-botta)
+[![Email](https://img.shields.io/badge/-Send%20a%20Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinivasub@gmail.com)
+[![Kaggle](https://img.shields.io/badge/-Kaggle%20Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com)
 
 </div>
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  ✅ Replace 'SrinivasuBotta' with your actual GitHub  -->
-<!--     username throughout this file before using!       -->
-<!--  ✅ Update email, LinkedIn, and social links          -->
-<!--  ✅ Customize projects table with your real projects  -->
-<!--  ✅ Update certifications with ones you actually have -->
-<!-- ══════════════════════════════════════════════════════ -->
+---
+
+<div align="center">
+
+```python
+while alive:
+    eat()
+    sleep()
+    code()     # ← I'm here 🤖
+    repeat()
+```
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:a855f7,100:0d1117&height=140&section=footer&animation=fadeIn"/>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--  📌 SETUP CHECKLIST — do this before publishing:             -->
+<!--  □  Replace "SrinivasuBotta" with your real GitHub username  -->
+<!--  □  Update email, LinkedIn, Kaggle & HuggingFace URLs        -->
+<!--  □  Swap project names/descriptions with your real projects  -->
+<!--  □  Update certifications you've actually completed          -->
+<!--  □  Adjust skill percentages honestly                        -->
+<!--  □  Update the roadmap milestones to match your journey      -->
+<!--  □  Create the repo named exactly as your GitHub username    -->
+<!-- ══════════════════════════════════════════════════════════════ -->
