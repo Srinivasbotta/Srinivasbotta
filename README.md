@@ -4,514 +4,192 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title>Srinivasu Botta · AI & Data Science Portfolio</title>
-  <!-- Google Fonts + Font Awesome 6 (free icons) -->
+  <!-- Tailwind CSS v3 + Font Awesome + Google Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background: linear-gradient(145deg, #e9eff7 0%, #d9e2ef 100%);
       font-family: 'Inter', sans-serif;
-      padding: 2rem 1.5rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
     }
-
-    /* main card - modern glass border + smooth shadows */
-    .portfolio-card {
-      max-width: 1380px;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.97);
-      backdrop-filter: blur(0px);
-      border-radius: 2.5rem;
-      box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2), 0 4px 14px rgba(0, 0, 0, 0.02);
-      overflow: hidden;
-      transition: transform 0.2s ease, box-shadow 0.2s;
-      border: 1px solid rgba(255, 255, 255, 0.7);
-    }
-
-    .portfolio-card:hover {
-      box-shadow: 0 30px 50px -18px rgba(0, 0, 0, 0.25);
-    }
-
-    .container {
-      padding: 2rem 2.2rem;
-    }
-
-    /* header with status ribbon */
-    .header-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 1.5rem;
-      gap: 1rem;
-    }
-
-    .title-badge h1 {
-      font-size: 2.6rem;
-      font-weight: 800;
+    /* custom gradient & subtle animations (Tailwind couldn't cover fully) */
+    .gradient-text {
       background: linear-gradient(135deg, #0B2B4E, #1F5E8E);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
-      letter-spacing: -0.02em;
     }
-
-    .title-badge p {
-      font-size: 0.95rem;
-      color: #2c3e66;
-      font-weight: 500;
-      margin-top: 0.35rem;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .open-badge {
-      background: #1a4d3e;
-      color: white;
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 0.3rem 1rem;
-      border-radius: 40px;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    }
-
-    .open-badge i {
-      font-size: 0.75rem;
-    }
-
-    /* metrics / stats row */
-    .stats-ribbon {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      background: #f0f4fa;
-      padding: 0.85rem 1.8rem;
-      border-radius: 60px;
-      margin: 1rem 0 1.8rem 0;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .stat-item {
-      text-align: center;
-    }
-
-    .stat-number {
-      font-size: 1.7rem;
-      font-weight: 800;
-      color: #0F2E4D;
-      line-height: 1.2;
-    }
-
-    .stat-label {
-      font-size: 0.7rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: #4a627a;
-    }
-
-    /* skill proficiency bars */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1rem;
-      margin: 1.5rem 0 1.8rem;
-      background: #ffffffd9;
-      border-radius: 2rem;
-      padding: 1.2rem 1.5rem;
-      border: 1px solid #eef2f8;
-    }
-
-    .skill-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 0.8rem;
-      font-size: 0.85rem;
-      font-weight: 500;
-    }
-
-    .skill-name i {
-      width: 24px;
-      color: #2b6e9e;
-    }
-
-    .skill-bar-bg {
-      flex: 1;
-      height: 8px;
-      background: #e2e8f0;
-      border-radius: 12px;
-      overflow: hidden;
-    }
-
-    .skill-bar-fill {
-      height: 100%;
+    .skill-fill {
       background: linear-gradient(90deg, #2c7da0, #1f5068);
-      border-radius: 12px;
-      width: 0%;
     }
-
-    /* tech stack bubbles */
-    .tech-stack-section {
-      margin: 2rem 0 1.8rem;
-    }
-
-    .section-badge {
-      font-size: 1rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      letter-spacing: -0.2px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      border-left: 4px solid #1f6e8c;
-      padding-left: 14px;
-    }
-
-    .tech-icons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.7rem;
-      background: #f9fbfe;
-      padding: 1.2rem 1.2rem;
-      border-radius: 2rem;
-    }
-
-    .tech-bubble {
-      background: white;
-      border-radius: 40px;
-      padding: 0.4rem 1rem;
-      font-size: 0.8rem;
-      font-weight: 500;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
-      border: 1px solid #e2edf7;
+    .hover-lift:hover {
+      transform: translateY(-2px);
       transition: all 0.2s ease;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
     }
-
-    .tech-bubble i, .tech-bubble span {
-      font-size: 0.85rem;
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 30px 50px -18px rgba(0, 0, 0, 0.25);
+      transition: all 0.25s ease;
     }
-
-    .tech-bubble:hover {
+    .tech-bubble-hover:hover {
       transform: translateY(-2px);
       border-color: #80b6d4;
       box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
-      background: #ffffff;
+      background-color: #ffffff;
     }
-
-    /* projects & roadmap grid */
-    .projects-roadmap {
-      display: grid;
-      grid-template-columns: 1fr 0.9fr;
-      gap: 1.8rem;
-      margin: 2rem 0;
-    }
-
-    .projects-grid {
-      background: #fefefe;
-      border-radius: 1.8rem;
-    }
-
-    .project-card {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid #eef2f0;
-      padding: 1rem 0.2rem;
-    }
-
-    .project-info h4 {
-      font-weight: 800;
-      font-size: 1rem;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .project-stats {
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: #1f6e8c;
-      background: #e5f2f7;
-      border-radius: 40px;
-      padding: 0.2rem 0.8rem;
-      white-space: nowrap;
-    }
-
-    .roadmap {
-      background: #f9fafc;
-      border-radius: 1.8rem;
-      padding: 1rem 1.2rem;
-    }
-
-    .roadmap-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 0.65rem 0;
-      border-bottom: 1px dashed #e0e7ed;
-    }
-
     .status-icon {
       width: 28px;
       text-align: center;
     }
-
-    .completed {
-      color: #2b7a4b;
-    }
-
-    .progress {
-      color: #e6a017;
-    }
-
-    /* certifications + connect row */
-    .cert-connect {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin: 1.5rem 0;
-      gap: 1rem;
-    }
-
-    .certs {
-      background: #f3f6fc;
-      border-radius: 1.5rem;
-      padding: 1rem 1.5rem;
-      flex: 2;
-    }
-
-    .cert-badge {
-      font-weight: 500;
-      font-size: 0.8rem;
-      margin: 0.4rem 0;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .connect-links {
-      background: #eef3fa;
-      border-radius: 1.5rem;
-      padding: 1rem 1.5rem;
-      flex: 1;
-      text-align: center;
-    }
-
-    .connect-links a {
-      display: inline-flex;
-      margin: 0.5rem 0.7rem;
-      font-size: 1.4rem;
-      color: #2c3e66;
-      transition: 0.2s;
-    }
-
-    .connect-links a:hover {
-      color: #0f5b86;
-      transform: scale(1.05);
-    }
-
-    /* quote + code loop */
-    .footer-quote {
-      margin-top: 1.8rem;
-      background: #0a1927;
-      color: #bfd9e8;
-      border-radius: 2rem;
-      padding: 1.2rem 1.8rem;
-      font-family: monospace;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    .quote-text {
-      font-style: italic;
-      font-weight: 400;
-      letter-spacing: 0.3px;
-    }
-
-    .code-loop {
-      background: #0000002e;
-      padding: 0.4rem 1rem;
-      border-radius: 2rem;
-      font-size: 0.75rem;
-    }
-
-    @media (max-width: 780px) {
-      .container {
-        padding: 1.2rem;
-      }
-      .projects-roadmap {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-      }
-      .stats-ribbon {
-        gap: 1rem;
-        justify-content: center;
-      }
-      .title-badge h1 {
-        font-size: 2rem;
-      }
-    }
-
-    .glow-text {
-      background: radial-gradient(circle at 30% 10%, #164863, #072437);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
-
-    i, .fas, .fab {
-      margin-right: 4px;
-    }
-
-    /* extra micro animation */
-    @keyframes subtlePulse {
-      0% { opacity: 0.9; }
-      100% { opacity: 1; }
-    }
   </style>
 </head>
-<body>
-<div class="portfolio-card">
-  <div class="container">
-    <!-- header row -->
-    <div class="header-row">
-      <div class="title-badge">
-        <h1>Srinivasu Botta</h1>
-        <p><i class="fas fa-graduation-cap"></i> B.Tech - Artificial Intelligence & Data Science · Andhra Pradesh, India
-          <span class="open-badge"><i class="fas fa-briefcase"></i> Open to internships & research collabs</span>
-        </p>
-      </div>
-    </div>
+<body class="bg-gradient-to-br from-[#e9eff7] to-[#d9e2ef] p-6 md:p-8 flex items-center justify-center min-h-screen">
 
-    <!-- stats metrics (12+,20+,30+,500+,5+) -->
-    <div class="stats-ribbon">
-      <div class="stat-item"><div class="stat-number">12+</div><div class="stat-label">ML Models</div></div>
-      <div class="stat-item"><div class="stat-number">20+</div><div class="stat-label">Research Papers</div></div>
-      <div class="stat-item"><div class="stat-number">30+</div><div class="stat-label">Kaggle Notebooks</div></div>
-      <div class="stat-item"><div class="stat-number">500+</div><div class="stat-label">Code Commits</div></div>
-      <div class="stat-item"><div class="stat-number">5+</div><div class="stat-label">End-to-end Pipelines</div></div>
-    </div>
+  <!-- Main Card: glassmorphic + smooth corners -->
+  <div class="max-w-[1380px] w-full bg-white/97 backdrop-blur-0 rounded-[2.5rem] shadow-xl border border-white/70 transition-all duration-200 card-hover">
+    <div class="p-5 md:p-8 lg:p-9">
 
-    <!-- skill proficiency (dynamic bars) -->
-    <div class="skills-grid">
-      <div class="skill-row"><span class="skill-name"><i class="fab fa-python"></i> Python</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 95%"></div></div><span>95%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-chart-line"></i> Data analysis</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%"></div></div><span>90%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-chart-simple"></i> Data visualization</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 88%"></div></div><span>88%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-database"></i> SQL</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%"></div></div><span>85%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-brain"></i> Machine Learning</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 92%"></div></div><span>92%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-microchip"></i> Deep Learning</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 88%"></div></div><span>88%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-language"></i> NLP / LLMs</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%"></div></div><span>85%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-eye"></i> Computer Vision</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 82%"></div></div><span>82%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-chart-line"></i> Time series</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 78%"></div></div><span>78%</span></div>
-      <div class="skill-row"><span class="skill-name"><i class="fas fa-cloud-upload-alt"></i> MLOps / Deploy</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%"></div></div><span>75%</span></div>
-    </div>
-
-    <!-- TECH STACK - enriched bubbles -->
-    <div class="tech-stack-section">
-      <div class="section-badge"><i class="fas fa-cubes"></i> TECH STACK</div>
-      <div class="tech-icons">
-        <div class="tech-bubble"><i class="fab fa-python"></i> Python</div><div class="tech-bubble">R</div><div class="tech-bubble"><i class="fas fa-database"></i> SQL</div><div class="tech-bubble"><i class="fab fa-cuttlefish"></i> C++</div>
-        <div class="tech-bubble"><i class="fas fa-brain"></i> TensorFlow</div><div class="tech-bubble"><i class="fas fa-fire"></i> PyTorch</div><div class="tech-bubble"><i class="fas fa-robot"></i> HuggingFace</div>
-        <div class="tech-bubble"><i class="fas fa-code-branch"></i> Transformers</div><div class="tech-bubble">Keras</div><div class="tech-bubble">Scikit-learn</div>
-        <div class="tech-bubble">NLTK / spaCy</div><div class="tech-bubble">OpenCV · YOLO</div><div class="tech-bubble">Pandas/NumPy</div>
-        <div class="tech-bubble">Streamlit · FastAPI</div><div class="tech-bubble">Flask · Docker</div><div class="tech-bubble">AWS · GCP · Azure</div>
-        <div class="tech-bubble">MySQL · MongoDB</div><div class="tech-bubble">PostgreSQL</div>
-      </div>
-    </div>
-
-    <!-- Currently learning + RAG / LLMs highlight -->
-    <div style="margin: 0.5rem 0 0.2rem">
-      <div class="section-badge"><i class="fas fa-graduation-cap"></i> CURRENTLY LEARNING 
-        <span style="background:#ffe8cf; font-size:0.7rem; padding:2px 12px; border-radius:40px; margin-left:12px;"><i class="fas fa-microphone-alt"></i> LLMs & Prompt Engineering · Retrieval-Augmented Generation (RAG)</span>
-      </div>
-    </div>
-
-    <!-- PROJECTS + ROADMAP dual column -->
-    <div class="projects-roadmap">
-      <div class="projects-grid">
-        <div class="section-badge"><i class="fas fa-star"></i> FEATURED PROJECTS</div>
-        <div class="project-card"><div class="project-info"><h4><i class="fas fa-eye"></i> Neural Image Classifier</h4><span>Multi-class deep CNN for image recognition</span></div><div class="project-stats"><i class="fas fa-chart-line"></i> 95%+ accuracy</div></div>
-        <div class="project-card"><div class="project-info"><h4><i class="fas fa-comment-dots"></i> NLP Sentiment Engine</h4><span>Customer review sentiment analysis REST API</span></div><div class="project-stats"><i class="fas fa-cloud-upload-alt"></i> Deployed API</div></div>
-        <div class="project-card"><div class="project-info"><h4><i class="fas fa-thumbs-up"></i> AI Recommender System</h4><span>Personalized content recommendation engine</span></div><div class="project-stats"><i class="fas fa-chart-simple"></i> 1M+ interactions</div></div>
-        <div class="project-card"><div class="project-info"><h4><i class="fas fa-chart-line"></i> ML Analytics Dashboard</h4><span>Real-time predictive analytics & visualization</span></div><div class="project-stats"><i class="fas fa-chart-pie"></i> End-to-end pipeline</div></div>
-        <div class="project-card"><div class="project-info"><h4><i class="fas fa-chart-simple"></i> Stock LSTM Predictor</h4><span>Market trend prediction via sequence modeling</span></div><div class="project-stats">📉 15% MAPE</div></div>
-        <div class="project-card"><div class="project-info"><h4><i class="fas fa-video"></i> CV Object Detector</h4><span>Real-time object detection & tracking pipeline</span></div><div class="project-stats"><i class="fas fa-tachometer-alt"></i> 30+ FPS on CPU</div></div>
+      <!-- ========= HEADER SECTION ========= -->
+      <div class="flex flex-wrap justify-between items-start gap-4 mb-5">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-extrabold gradient-text tracking-tight">Srinivasu Botta</h1>
+          <div class="flex flex-wrap items-center gap-3 mt-2 text-sm md:text-base text-slate-700">
+            <i class="fas fa-graduation-cap text-[#1f6e8c]"></i>
+            <span>B.Tech - Artificial Intelligence & Data Science · Andhra Pradesh, India</span>
+            <span class="inline-flex items-center gap-2 bg-[#1a4d3e] text-white text-[0.7rem] font-semibold px-3 py-1.5 rounded-full shadow-sm">
+              <i class="fas fa-briefcase text-xs"></i> Open to internships & research collabs
+            </span>
+          </div>
+        </div>
       </div>
 
-      <!-- learning roadmap with status icons -->
-      <div class="roadmap">
-        <div class="section-badge"><i class="fas fa-map-signs"></i> LEARNING ROADMAP</div>
-        <div class="roadmap-item"><div class="status-icon completed"><i class="fas fa-check-circle"></i></div><div>Python & data science fundamentals</div><span style="margin-left:auto; font-size:0.7rem;">completed</span></div>
-        <div class="roadmap-item"><div class="status-icon completed"><i class="fas fa-check-circle"></i></div><div>Classical machine learning</div><span style="margin-left:auto;">✔️</span></div>
-        <div class="roadmap-item"><div class="status-icon completed"><i class="fas fa-check-circle"></i></div><div>Deep learning & neural networks</div><span style="margin-left:auto;">✔️</span></div>
-        <div class="roadmap-item"><div class="status-icon completed"><i class="fas fa-check-circle"></i></div><div>Computer vision & NLP</div><span style="margin-left:auto;">✔️</span></div>
-        <div class="roadmap-item"><div class="status-icon progress"><i class="fas fa-spinner fa-pulse"></i></div><div>LLMs & GenAI</div><span style="margin-left:auto; background:#f2e3c2; padding:2px 10px; border-radius:20px;">in progress</span></div>
-        <div class="roadmap-item"><div class="status-icon progress"><i class="fas fa-hourglass-half"></i></div><div>MLOps & production AI</div><span style="margin-left:auto;">in progress</span></div>
-        <div class="roadmap-item"><div class="status-icon"><i class="fas fa-future"></i></div><div>Multimodal AI & AI agents</div><span style="margin-left:auto;">next ⏩</span></div>
-        <div class="roadmap-item"><div class="status-icon"><i class="fas fa-chalkboard"></i></div><div>MLOps & Model Deployment at Scale</div><span style="margin-left:auto;">next</span></div>
-        <div class="roadmap-item"><div class="status-icon"><i class="fas fa-language"></i></div><div>Multimodal AI — Vision + Language</div><span style="margin-left:auto;">exploring</span></div>
+      <!-- ========= STATS RIBBON (12+ / 20+ / 30+ / 500+ / 5+) ========= -->
+      <div class="flex flex-wrap justify-between items-center gap-5 bg-[#f0f4fa] py-3 px-5 md:px-7 rounded-full my-5">
+        <div class="text-center"><div class="text-2xl md:text-3xl font-black text-[#0F2E4D]">12+</div><div class="text-[0.65rem] font-semibold uppercase tracking-wide text-slate-500">ML Models</div></div>
+        <div class="text-center"><div class="text-2xl md:text-3xl font-black text-[#0F2E4D]">20+</div><div class="text-[0.65rem] font-semibold uppercase tracking-wide text-slate-500">Research Papers</div></div>
+        <div class="text-center"><div class="text-2xl md:text-3xl font-black text-[#0F2E4D]">30+</div><div class="text-[0.65rem] font-semibold uppercase tracking-wide text-slate-500">Kaggle Notebooks</div></div>
+        <div class="text-center"><div class="text-2xl md:text-3xl font-black text-[#0F2E4D]">500+</div><div class="text-[0.65rem] font-semibold uppercase tracking-wide text-slate-500">Code Commits</div></div>
+        <div class="text-center"><div class="text-2xl md:text-3xl font-black text-[#0F2E4D]">5+</div><div class="text-[0.65rem] font-semibold uppercase tracking-wide text-slate-500">End-to-end Pipelines</div></div>
       </div>
-    </div>
 
-    <!-- certifications + connect with socials -->
-    <div class="cert-connect">
-      <div class="certs">
-        <div class="section-badge"><i class="fas fa-certificate"></i> CERTIFICATIONS</div>
-        <div class="cert-badge"><i class="fas fa-check-circle" style="color:#1f6e8c"></i> Machine Learning Specialization</div>
-        <div class="cert-badge"><i class="fas fa-check-circle" style="color:#1f6e8c"></i> IBM Data Science Professional</div>
-        <div class="cert-badge"><i class="fas fa-check-circle" style="color:#1f6e8c"></i> Python for Data Science & AI</div>
-        <div class="cert-badge"><i class="fas fa-check-circle" style="color:#1f6e8c"></i> Deep Learning Specialization</div>
-        <div class="cert-badge"><i class="fab fa-google"></i> Google Cloud ML Engineer</div>
-        <div class="cert-badge"><i class="fas fa-microchip"></i> TensorFlow Developer Certificate</div>
+      <!-- ========= SKILL PROFICIENCY BARS ========= -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-white/90 rounded-2xl p-5 border border-[#eef2f8] my-6">
+        <!-- Python -->
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fab fa-python text-[#2b6e9e]"></i> Python</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:95%"></div></div><span class="text-xs">95%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-chart-line text-[#2b6e9e]"></i> Data analysis</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:90%"></div></div><span class="text-xs">90%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-chart-simple text-[#2b6e9e]"></i> Data visualization</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:88%"></div></div><span class="text-xs">88%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-database text-[#2b6e9e]"></i> SQL</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:85%"></div></div><span class="text-xs">85%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-brain text-[#2b6e9e]"></i> Machine Learning</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:92%"></div></div><span class="text-xs">92%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-microchip text-[#2b6e9e]"></i> Deep Learning</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:88%"></div></div><span class="text-xs">88%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-language text-[#2b6e9e]"></i> NLP / LLMs</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:85%"></div></div><span class="text-xs">85%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-eye text-[#2b6e9e]"></i> Computer Vision</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:82%"></div></div><span class="text-xs">82%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-chart-line text-[#2b6e9e]"></i> Time series</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:78%"></div></div><span class="text-xs">78%</span></div>
+        <div class="flex items-center justify-between gap-3 text-sm font-medium"><div class="w-28 flex items-center gap-1"><i class="fas fa-cloud-upload-alt text-[#2b6e9e]"></i> MLOps / Deploy</div><div class="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full skill-fill rounded-full" style="width:75%"></div></div><span class="text-xs">75%</span></div>
       </div>
-      <div class="connect-links">
-        <div class="section-badge"><i class="fas fa-share-alt"></i> CONNECT WITH ME</div>
-        <a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="#" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-kaggle fa-2x"></i></a>
-        <a href="#" target="_blank"><i class="fas fa-robot"></i> HF</a>
-        <div style="margin-top: 12px; font-size: 0.7rem; color:#366f8c"><i class="fab fa-github"></i> github.com/srinivasu-ai</div>
-      </div>
-    </div>
 
-    <!-- quote + loop (while eat sleep code) -->
-    <div class="footer-quote">
-      <div class="quote-text"><i class="fas fa-quote-left"></i> "The best way to predict the future is to build it."</div>
-      <div class="code-loop">
-        <i class="fas fa-code"></i> while(true) { eat(); sleep(); code(); repeat(); }
+      <!-- ========= TECH STACK (modern bubble grid) ========= -->
+      <div class="mt-6 mb-7">
+        <div class="flex items-center gap-2 border-l-4 border-[#1f6e8c] pl-3 mb-4"><i class="fas fa-cubes text-[#1f6e8c]"></i><span class="font-bold text-gray-800">TECH STACK</span></div>
+        <div class="flex flex-wrap gap-2 bg-[#f9fbfe] p-4 rounded-2xl">
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium flex items-center gap-1 shadow-sm tech-bubble-hover transition-all"><i class="fab fa-python"></i> Python</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium flex items-center gap-1 shadow-sm tech-bubble-hover transition-all">R</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium flex items-center gap-1 shadow-sm tech-bubble-hover transition-all"><i class="fas fa-database"></i> SQL</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium flex items-center gap-1 shadow-sm tech-bubble-hover transition-all"><i class="fab fa-cuttlefish"></i> C++</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium flex items-center gap-1 shadow-sm tech-bubble-hover transition-all"><i class="fas fa-brain"></i> TensorFlow</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium flex items-center gap-1 shadow-sm tech-bubble-hover transition-all"><i class="fas fa-fire"></i> PyTorch</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium flex items-center gap-1 shadow-sm tech-bubble-hover transition-all"><i class="fas fa-robot"></i> HuggingFace</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium flex items-center gap-1 shadow-sm tech-bubble-hover transition-all">Transformers</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">Keras</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">Scikit-learn</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">NLTK / spaCy</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">OpenCV · YOLO</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">Pandas/NumPy</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">Streamlit · FastAPI</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">Flask · Docker</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">AWS · GCP · Azure</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">MySQL · MongoDB</span>
+          <span class="bg-white border border-[#e2edf7] rounded-full px-3 py-1.5 text-xs font-medium shadow-sm tech-bubble-hover transition-all">PostgreSQL</span>
+        </div>
       </div>
-    </div>
 
-    <!-- micro stats footer (accuracy, fps) -->
-    <div style="display: flex; justify-content: flex-end; margin-top: 1rem; gap: 1.2rem; font-size:0.7rem; color:#446688">
-      <span><i class="fas fa-chart-line"></i> 95%+ accuracy</span> 
-      <span><i class="fas fa-tachometer-alt"></i> 30 FPS on CPU</span> 
-      <span><i class="fas fa-chart-line"></i> 15% MAPE</span> 
-      <span><i class="fas fa-database"></i> 1M+ interactions</span>
+      <!-- ========= CURRENTLY LEARNING (highlight) ========= -->
+      <div class="mt-2 mb-2">
+        <div class="flex items-center gap-2 border-l-4 border-[#1f6e8c] pl-3 mb-2"><i class="fas fa-graduation-cap text-[#1f6e8c]"></i><span class="font-bold text-gray-800">CURRENTLY LEARNING</span>
+          <span class="bg-amber-50 text-amber-800 text-[0.7rem] font-semibold px-3 py-1 rounded-full ml-2"><i class="fas fa-microphone-alt mr-1"></i> LLMs & Prompt Engineering · Retrieval-Augmented Generation (RAG)</span>
+        </div>
+      </div>
+
+      <!-- ========= PROJECTS + ROADMAP (2 columns) ========= -->
+      <div class="grid grid-cols-1 lg:grid-cols-[1fr_0.9fr] gap-6 my-7">
+        <!-- LEFT: FEATURED PROJECTS -->
+        <div>
+          <div class="flex items-center gap-2 border-l-4 border-[#1f6e8c] pl-3 mb-3"><i class="fas fa-star text-[#1f6e8c]"></i><span class="font-bold text-gray-800">FEATURED PROJECTS</span></div>
+          <div class="space-y-3">
+            <div class="flex flex-wrap items-center justify-between border-b border-gray-100 pb-3"><div><h4 class="font-extrabold text-sm flex gap-2"><i class="fas fa-eye text-[#1f6e8c]"></i> Neural Image Classifier</h4><span class="text-xs text-gray-500">Multi-class deep CNN for image recognition</span></div><div class="text-[0.7rem] font-semibold bg-[#e5f2f7] px-3 py-1 rounded-full text-[#1f6e8c]"><i class="fas fa-chart-line"></i> 95%+ accuracy</div></div>
+            <div class="flex flex-wrap items-center justify-between border-b border-gray-100 pb-3"><div><h4 class="font-extrabold text-sm flex gap-2"><i class="fas fa-comment-dots text-[#1f6e8c]"></i> NLP Sentiment Engine</h4><span class="text-xs text-gray-500">Customer review sentiment analysis REST API</span></div><div class="text-[0.7rem] font-semibold bg-[#e5f2f7] px-3 py-1 rounded-full text-[#1f6e8c]"><i class="fas fa-cloud-upload-alt"></i> Deployed API</div></div>
+            <div class="flex flex-wrap items-center justify-between border-b border-gray-100 pb-3"><div><h4 class="font-extrabold text-sm flex gap-2"><i class="fas fa-thumbs-up text-[#1f6e8c]"></i> AI Recommender System</h4><span class="text-xs text-gray-500">Personalized content recommendation engine</span></div><div class="text-[0.7rem] font-semibold bg-[#e5f2f7] px-3 py-1 rounded-full text-[#1f6e8c]"><i class="fas fa-chart-simple"></i> 1M+ interactions</div></div>
+            <div class="flex flex-wrap items-center justify-between border-b border-gray-100 pb-3"><div><h4 class="font-extrabold text-sm flex gap-2"><i class="fas fa-chart-line text-[#1f6e8c]"></i> ML Analytics Dashboard</h4><span class="text-xs text-gray-500">Real-time predictive analytics & visualization</span></div><div class="text-[0.7rem] font-semibold bg-[#e5f2f7] px-3 py-1 rounded-full text-[#1f6e8c]">End-to-end pipeline</div></div>
+            <div class="flex flex-wrap items-center justify-between border-b border-gray-100 pb-3"><div><h4 class="font-extrabold text-sm flex gap-2"><i class="fas fa-chart-simple text-[#1f6e8c]"></i> Stock LSTM Predictor</h4><span class="text-xs text-gray-500">Market trend prediction via sequence modeling</span></div><div class="text-[0.7rem] font-semibold bg-[#e5f2f7] px-3 py-1 rounded-full text-[#1f6e8c]">📉 15% MAPE</div></div>
+            <div class="flex flex-wrap items-center justify-between pb-1"><div><h4 class="font-extrabold text-sm flex gap-2"><i class="fas fa-video text-[#1f6e8c]"></i> CV Object Detector</h4><span class="text-xs text-gray-500">Real-time object detection & tracking pipeline</span></div><div class="text-[0.7rem] font-semibold bg-[#e5f2f7] px-3 py-1 rounded-full text-[#1f6e8c]"><i class="fas fa-tachometer-alt"></i> 30+ FPS on CPU</div></div>
+          </div>
+        </div>
+
+        <!-- RIGHT: LEARNING ROADMAP with status -->
+        <div class="bg-[#f9fafc] rounded-2xl p-4">
+          <div class="flex items-center gap-2 border-l-4 border-[#1f6e8c] pl-3 mb-3"><i class="fas fa-map-signs"></i><span class="font-bold text-gray-800">LEARNING ROADMAP</span></div>
+          <div class="space-y-2">
+            <div class="flex items-center gap-3 border-b border-gray-200 pb-2"><div class="status-icon text-green-700"><i class="fas fa-check-circle"></i></div><span class="text-sm">Python & data science fundamentals</span><span class="ml-auto text-[0.65rem] font-medium text-green-700">completed</span></div>
+            <div class="flex items-center gap-3 border-b border-gray-200 pb-2"><div class="status-icon text-green-700"><i class="fas fa-check-circle"></i></div><span class="text-sm">Classical machine learning</span><span class="ml-auto text-[0.65rem]">✔️</span></div>
+            <div class="flex items-center gap-3 border-b border-gray-200 pb-2"><div class="status-icon text-green-700"><i class="fas fa-check-circle"></i></div><span class="text-sm">Deep learning & neural networks</span><span class="ml-auto text-[0.65rem]">✔️</span></div>
+            <div class="flex items-center gap-3 border-b border-gray-200 pb-2"><div class="status-icon text-green-700"><i class="fas fa-check-circle"></i></div><span class="text-sm">Computer vision & NLP</span><span class="ml-auto text-[0.65rem]">✔️</span></div>
+            <div class="flex items-center gap-3 border-b border-gray-200 pb-2"><div class="status-icon text-amber-600"><i class="fas fa-spinner fa-pulse"></i></div><span class="text-sm font-medium">LLMs & GenAI</span><span class="ml-auto bg-amber-100 text-amber-700 text-[0.6rem] font-bold px-2 py-0.5 rounded-full">in progress</span></div>
+            <div class="flex items-center gap-3 border-b border-gray-200 pb-2"><div class="status-icon text-amber-600"><i class="fas fa-hourglass-half"></i></div><span class="text-sm">MLOps & production AI</span><span class="ml-auto text-[0.65rem] text-amber-600">in progress</span></div>
+            <div class="flex items-center gap-3 border-b border-gray-200 pb-2"><div class="status-icon text-gray-500"><i class="fas fa-future"></i></div><span class="text-sm">Multimodal AI & AI agents</span><span class="ml-auto text-xs">next ⏩</span></div>
+            <div class="flex items-center gap-3 border-b border-gray-200 pb-2"><div class="status-icon text-gray-500"><i class="fas fa-chalkboard"></i></div><span class="text-sm">MLOps & Model Deployment at Scale</span><span class="ml-auto text-xs">next</span></div>
+            <div class="flex items-center gap-3"><div class="status-icon text-gray-500"><i class="fas fa-language"></i></div><span class="text-sm">Multimodal AI — Vision + Language</span><span class="ml-auto text-xs">exploring</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========= CERTIFICATIONS + CONNECT SECTION ========= -->
+      <div class="flex flex-wrap gap-5 my-6">
+        <div class="flex-1 bg-[#f3f6fc] rounded-2xl p-5">
+          <div class="flex items-center gap-2 border-l-4 border-[#1f6e8c] pl-3 mb-3"><i class="fas fa-certificate"></i><span class="font-bold text-gray-800">CERTIFICATIONS</span></div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#1f6e8c] text-xs"></i><span>Machine Learning Specialization</span></div>
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#1f6e8c] text-xs"></i><span>IBM Data Science Professional</span></div>
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#1f6e8c] text-xs"></i><span>Python for Data Science & AI</span></div>
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#1f6e8c] text-xs"></i><span>Deep Learning Specialization</span></div>
+            <div class="flex items-center gap-2"><i class="fab fa-google text-[#1f6e8c] text-xs"></i><span>Google Cloud ML Engineer</span></div>
+            <div class="flex items-center gap-2"><i class="fas fa-microchip text-[#1f6e8c] text-xs"></i><span>TensorFlow Developer Certificate</span></div>
+          </div>
+        </div>
+        <div class="flex-1 bg-[#eef3fa] rounded-2xl p-5 text-center">
+          <div class="flex items-center gap-2 border-l-4 border-[#1f6e8c] pl-3 mb-3 justify-center lg:justify-start"><i class="fas fa-share-alt"></i><span class="font-bold text-gray-800">CONNECT WITH ME</span></div>
+          <div class="flex justify-center gap-5 text-2xl text-[#2c3e66]">
+            <a href="#" class="hover:text-[#0f5b86] transition transform hover:scale-110 inline-block"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-[#0f5b86] transition transform hover:scale-110 inline-block"><i class="fas fa-envelope"></i></a>
+            <a href="#" class="hover:text-[#0f5b86] transition transform hover:scale-110 inline-block"><i class="fab fa-kaggle"></i></a>
+            <a href="#" class="hover:text-[#0f5b86] transition transform hover:scale-110 inline-block"><i class="fas fa-robot"></i></a>
+          </div>
+          <div class="mt-3 text-xs text-[#366f8c]"><i class="fab fa-github"></i> github.com/srinivasu-ai</div>
+        </div>
+      </div>
+
+      <!-- ========= QUOTE + CODE LOOP (fun element) ========= -->
+      <div class="mt-5 bg-[#0a1927] text-[#bfd9e8] rounded-2xl py-4 px-6 flex flex-wrap justify-between items-center gap-3 font-mono">
+        <div class="italic text-sm"><i class="fas fa-quote-left mr-2"></i> "The best way to predict the future is to build it."</div>
+        <div class="bg-black/20 px-3 py-1.5 rounded-full text-xs"><i class="fas fa-code mr-1"></i> while(true) { eat(); sleep(); code(); repeat(); }</div>
+      </div>
+
+    
+      <div class="flex justify-end gap-4 mt-4 text-[0.65rem] text-[#446688] font-medium">
+        <span><i class="fas fa-chart-line"></i> 95%+ accuracy</span>
+        <span><i class="fas fa-tachometer-alt"></i> 30 FPS on CPU</span>
+        <span><i class="fas fa-chart-line"></i> 15% MAPE</span>
+        <span><i class="fas fa-database"></i> 1M+ interactions</span>
+      </div>
     </div>
   </div>
-</div>
 </body>
 </html>
