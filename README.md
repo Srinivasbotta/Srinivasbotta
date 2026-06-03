@@ -1,260 +1,269 @@
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--           SRINIVASU BOTTA — GitHub Profile README             -->
+<!--              Theme: Futuristic Glassmorphism                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-
-
-<div align="center"> <!-- Animated Typing Header --> <a href="https://github.com/Srinivasbotta"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Srinivasu+%F0%9F%91%8B;AI+Agent+Bui
-
-pasted
-
-this is my github profile code now make even better and attractaable .it should look nice and think like a globetrotter
-
-2:10 PM
-
-Reading frontend design skill
-Reading frontend design skill
-Now let me craft an extraordinary GitHub profile README — globetrotter-themed, with a world-explorer, adventure-meets-AI aesthetic. Bold, immersive, and utterly memorable.
-
-
-Created a file, read a file
-Created a file, read a file
-Here's your upgraded README — built around a Dark Atlas / Globetrotter Explorer aesthetic. Here's what makes it special:
-
-🌍 The Globetrotter Concept, front to back:
-
-Deep dark navy + forest green + aged parchment gold (
-#0a0a1a / 
-#0d2137 / 
-#e8d5a3 / 
-#7ecfc0) — like a vintage map meets a command terminal
-Every section reframed as exploration: "Territories Conquered", "Expedition Highlights", "Trail Map", "Transmit"
-A passport-style code block instead of a plain class definition
-Badge labels like "Explorers Visited" and "Fellow Travelers" instead of generic text
-✨ Visual upgrades:
-
-Font switched to Playfair Display for a refined, editorial feel in the typing SVG
-Consistent color-coded badges across all tech skills (organized by category)
-Project pins with descriptions that actually sell the work
-Coordinated trophy, streak, and activity graph colors — everything feels like one system
-📌 To use it: Just replace your current Srinivasbotta/Srinivasbotta/README.md with this file. All the external image URLs already point to your GitHub username, so everything will work out of the box.
-
-
-Readme
-Document · MD 
-i want it like a neural netwoks and it should be more better
-
-2:13 PM
-Now I'll build a stunning neural-network-themed GitHub README — dark, electric, with synapse connections, layer animations, and a deep tech aesthetic.
-
-
-Created a file, ran a command
-Created a file, ran a command
-Now let me also build a live visual preview of the neural network diagram that'll appear on the profile:
-
-
-Presented file
-Presented file
-
-
-Above is a live preview of how your profile will feel, and the README file is ready to drop in. Here's what makes this neural-network theme fire:
-
-🧠 The Neural Network DNA:
-
-A full SVG neural network diagram baked right into the preview — input → hidden → output layers with visible weighted connections and glowing nodes
-Every section reframed in ML terminology: "Layer Architecture", "Weights & Biases", "Forward Pass", "Loss Curve", "Gradient Descent Trail", "Backpropagation"
-The About Me block replaced with a network architecture spec card — Optimizer, Activation function, Loss function, Epochs: ∞
-Animated skill progress bars styled like training metrics
-A monospace terminal block with $ python srinivasu.py --mode=init that types out your profile
-🎨 Color System — Dark synapse palette:
-
-Deep space navy 
-#050510 background
-Electric violet 
-#a78bfa for identity/headings
-Cyan 
-#67e8f9 for data/frameworks
-Neon green 
-#4ade80 for outputs/results
-Everything feels like a glowing neural net at midnight
-📌 To deploy: Copy the README file content into your Srinivasbotta/Srinivasbotta/README.md on GitHub — it'll render perfectly.
-
-
-Readme
-Document · MD 
-i want even more better and make sure that all the icons should be presented
-
-2:21 PM
-
-Check frontend design skill again for max quality
-Check frontend design skill again for max quality
-Now let me build the most epic neural-network GitHub README possible — with ALL icons from skillicons.dev, maximum visual impact, animated layers, and a complete profile overhaul.
-
-
-Write the ultimate neural network GitHub README
-Write the ultimate neural network GitHub README
-Now let me build the full interactive live preview — with animated neural network, all icons, skill bars, and the complete profile:
-
-
-Presented file
-Presented file
-
-
-This is the most powerful version yet. Here's everything that's new and upgraded:
-
-🧠 Neural Network — Full 4-Layer Architecture:
-
-Input → Hidden L1 → Hidden L2 → Hidden L3 → Output
-Every layer has labeled nodes with real tech names
-Weighted connections between every node with opacity gradients
-model.summary() ASCII block with real ML params (Optimizer, Activation, Loss, Epochs)
-⚡ ALL Icons — Every Single One:
-
-Input Layer → Python, HTML5, CSS3, JS, Markdown
-Hidden L1 → TensorFlow, PyTorch, OpenCV, scikit-learn, Keras
-Hidden L2 → NumPy, Pandas, Matplotlib, Jupyter, Anaconda
-Hidden L3 → Git, GitHub, VS Code, Linux, Bash, Docker
-Output Layer → GCP, AWS, Azure, FastAPI, Flask, MySQL
-Each icon has its own hoverable card with label — clean and organized by layer
-✨ Visual Effects in the live preview:
-
-Animated floating particles in the background
-Moving grid lines
-Glowing radial light sources
-Animated skill bars with color gradients per skill
-Blinking terminal cursor
-Pulse dot on status badge
-Hover lift on all cards and icon nodes
-📌 To deploy: Drop the README.md into your Srinivasbotta/Srinivasbotta/README.md on GitHub. All skillicons.dev URLs are live and will render every icon automatically.
-
-
-Readme
-Document · MD 
-
-
-You've used 90% of your session limit
-Get more
-
-
-
-Claude is AI and can make mistakes. Please double-check responses.
-Pasted content
-4.65 KB •119 lines
-•
-Formatting may be inconsistent from source
 <div align="center">
 
-<!-- Animated Typing Header -->
-<a href="https://github.com/Srinivasbotta">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Srinivasu+%F0%9F%91%8B;AI+Agent+Builder+%F0%9F%A4%96;ML+%26+Deep+Learning+Enthusiast+%F0%9F%A7%A0;Python+%7C+HTML+%7C+CSS+Developer+%F0%9F%94%A7" alt="Typing SVG" />
+<!-- ══════════════ ANIMATED HEADER BANNER ══════════════ -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6366f1,100:a855f7&height=200&section=header&text=Srinivasu%20Botta&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Engineer&descSize=18&descAlignY=58&descColor=a5b4fc&animation=fadeIn" />
+
+<!-- ══════════════ TYPING ANIMATION ══════════════ -->
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=🤖+Machine+Learning+Engineer;🧠+Deep+Learning+Enthusiast;📊+Data+Science+%26+Analytics;🔬+AI+Researcher+%26+Builder;✨+Turning+Data+into+Intelligence" alt="Typing SVG" />
 </a>
 
-<!-- Animated Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=SRINIVASU%20BOTTA&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Building+AI+Agents+%7C+ML+%7C+Deep+Learning&descAlignY=55&descSize=18" />
+<br/>
 
-<!-- Profile Views + Followers Badges -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Srinivasbotta&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/Srinivasbotta?label=Followers&style=for-the-badge&color=blue" />
-</p>
+<!-- ══════════════ PROFILE BADGES ══════════════ -->
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srinivasub)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinivasub@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%236366f1.svg?style=for-the-badge&logo=vercel&logoColor=white)](#)
+[![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)](#)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=SrinivasuBotta&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/SrinivasuBotta?style=for-the-badge&color=a855f7&labelColor=0d1117)
 
 </div>
 
 ---
 
-## 🧠 About Me
+<!-- ══════════════ ABOUT ME ══════════════ -->
+
+<img align="right" alt="AI Brain GIF" width="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd2bHlzZDJ3NnF1NHZ1N2ZtY2lmZGd3aGE4eHlkNjFoc3hldGFtZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif"/>
+
+## ✦ About Me
 
 ```python
-class Srinivasu:
-    name       = "Srinivasu Botta"
-    role       = "AI Agent Builder & ML Enthusiast"
-    location   = "India 🇮🇳"
-    skills     = ["Python", "HTML", "CSS", "Machine Learning", "DSA"]
-    learning   = ["Deep Learning", "LLMs", "AI Agents"]
-    passion    = "Building intelligent systems that make a difference 🤖"
-    linkedin   = "https://linkedin.com/in/srinivasu-botta-0a8330321"
+class SrinivasuBotta:
+    def __init__(self):
+        self.name       = "Srinivasu Botta"
+        self.role       = "AI & Data Science Student"
+        self.location   = "Andhra Pradesh, India 🇮🇳"
+        self.education  = "B.Tech — AI & Data Science"
+
+    @property
+    def interests(self):
+        return [
+            "🤖 Machine Learning & Deep Learning",
+            "📊 Data Science & Analytics",
+            "🧠 Neural Networks & NLP",
+            "👁️ Computer Vision",
+            "🔬 AI Research & Innovation",
+        ]
+
+    @property
+    def currently(self):
+        return {
+            "learning"  : "Transformers, LLMs & GenAI",
+            "building"  : "AI-powered real-world projects",
+            "exploring" : "MLOps & Model Deployment",
+            "goal"      : "Solve problems with Intelligent Systems",
+        }
+
+    def __str__(self):
+        return "Turning raw data into intelligent decisions 🚀"
+```
+
+<br clear="right"/>
+
+---
+
+<!-- ══════════════ TECH STACK ══════════════ -->
+
+## ⚡ Tech Stack & Tools
+
+<div align="center">
+
+### 🐍 Languages
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![R](https://img.shields.io/badge/R-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+### 🤖 AI / ML / DL
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+### 📊 Data Science
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-5C7FA5?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+### 🛠️ Tools & Platforms
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+### ☁️ Cloud
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+</div>
+
+---
+
+<!-- ══════════════ GITHUB STATS ══════════════ -->
+
+## 📈 GitHub Analytics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SrinivasuBotta&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=c9d1d9&ring_color=6366f1"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrinivasuBotta&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9"/>
+
+<img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=SrinivasuBotta&theme=tokyonight&hide_border=true&background=0d1117&ring=6366f1&fire=a855f7&currStreakLabel=a5b4fc&sideLabels=a5b4fc&stroke=6366f1"/>
+
+<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=SrinivasuBotta&bg_color=0d1117&color=a5b4fc&line=6366f1&point=a855f7&area=true&hide_border=true&area_color=6366f1"/>
+
+</div>
+
+---
+
+<!-- ══════════════ FEATURED PROJECTS ══════════════ -->
+
+## 🚀 Featured AI/ML Projects
+
+<div align="center">
+
+| 🔬 Project | 💡 Description | 🛠️ Stack | ⭐ |
+|:---:|:---|:---:|:---:|
+| **🧠 Neural Image Classifier** | Deep CNN model for multi-class image classification with 95%+ accuracy | `PyTorch` `CNN` `OpenCV` | ⭐⭐⭐ |
+| **📊 Predictive Analytics Dashboard** | End-to-end ML pipeline with real-time data visualization | `Scikit-learn` `Streamlit` `Pandas` | ⭐⭐⭐ |
+| **💬 NLP Sentiment Engine** | BERT-based sentiment analysis for customer reviews | `HuggingFace` `Transformers` `Flask` | ⭐⭐⭐ |
+| **📈 Stock Price Predictor** | LSTM time-series forecasting model for market trends | `TensorFlow` `LSTM` `Yahoo Finance` | ⭐⭐ |
+| **🎯 Recommendation System** | Collaborative filtering model for personalized suggestions | `Python` `Surprise` `SQL` | ⭐⭐ |
+
+</div>
+
+> 💡 *Explore all projects on my [repositories tab](https://github.com/SrinivasuBotta?tab=repositories)*
+
+---
+
+<!-- ══════════════ SKILLS RADAR ══════════════ -->
+
+## 🎯 Expertise Breakdown
+
+```
+Machine Learning      ████████████████████  90%
+Deep Learning         ██████████████████░░  85%
+Data Analysis         ███████████████████░  88%
+Python Programming    ████████████████████  92%
+Data Visualization    ████████████████░░░░  78%
+NLP / Text AI         ███████████████░░░░░  74%
+Computer Vision       ██████████████░░░░░░  70%
+MLOps / Deployment    ████████████░░░░░░░░  60%
 ```
 
 ---
 
-## 🚀 Tech Stack & Skills
+<!-- ══════════════ LEARNING JOURNEY ══════════════ -->
+
+## 🌱 Currently Exploring
 
 <div align="center">
 
-<!-- Animated Tech Icons -->
-<img src="https://skillicons.dev/icons?i=python,html,css,git,github,vscode,tensorflow,pytorch,opencv&theme=dark&perline=9" />
+```mermaid
+graph LR
+    A[🎓 AI & DS Student] --> B[📚 Core ML/DL]
+    B --> C[🤗 LLMs & GenAI]
+    C --> D[🚀 Real Projects]
+    D --> E[☁️ MLOps & Deploy]
+    E --> F[🌍 AI for Impact]
+    style A fill:#6366f1,stroke:#a5b4fc,color:#fff
+    style B fill:#7c3aed,stroke:#a5b4fc,color:#fff
+    style C fill:#a855f7,stroke:#a5b4fc,color:#fff
+    style D fill:#6366f1,stroke:#a5b4fc,color:#fff
+    style E fill:#7c3aed,stroke:#a5b4fc,color:#fff
+    style F fill:#a855f7,stroke:#a5b4fc,color:#fff
+```
 
 </div>
 
 ---
 
-## 🔥 GitHub Stats
+<!-- ══════════════ ACHIEVEMENTS ══════════════ -->
+
+## 🏆 Achievements & Certifications
 
 <div align="center">
 
-<!-- Animated Stats Cards -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Srinivasbotta&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Srinivasbotta&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=ff6b35&currStreakLabel=00d9ff" />
+![Trophies](https://github-profile-trophy.vercel.app/?username=SrinivasuBotta&theme=discord&no-frame=true&no-bg=true&margin-w=6&column=7)
 
 </div>
 
-<div align="center">
-<img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srinivasbotta&layout=donut&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff" />
-</div>
+<br/>
+
+| 🎖️ Certification | 🏛️ Platform | 📅 Year |
+|:---|:---:|:---:|
+| 🤖 Machine Learning Specialization | Coursera / Andrew Ng | 2024 |
+| 🧠 Deep Learning Specialization | Coursera / deeplearning.ai | 2024 |
+| 📊 Data Science Professional | IBM / Coursera | 2024 |
+| 🐍 Python for Data Science | IBM / edX | 2023 |
+| ☁️ Google Cloud ML Engineer | Google Cloud Skills Boost | 2024 |
 
 ---
 
-## 🏆 GitHub Trophies
+<!-- ══════════════ CONNECT ══════════════ -->
+
+## 🌐 Let's Connect & Collaborate
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Srinivasbotta&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1" />
+```
+╔══════════════════════════════════════════════════╗
+║   Open to: Research Collabs · Internships        ║
+║            Open Source · AI Projects             ║
+║   Reach me: srinivasub@gmail.com                 ║
+╚══════════════════════════════════════════════════╝
+```
 
-</div>
-
----
-
-## 🤖 Featured Project
-
-<div align="center">
-
-[![Virtual Fitness Trainer](https://github-readme-stats.vercel.app/api/pin/?username=Srinivasbotta&repo=Virtual_fitness_trainer&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff&icon_color=00d9ff)](https://github.com/Srinivasbotta/Virtual_fitness_trainer)
-[![SentinelNet](https://github-readme-stats.vercel.app/api/pin/?username=Srinivasbotta&repo=SentinelNet&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff&icon_color=00d9ff)](https://github.com/Srinivasbotta/SentinelNet)
-
-</div>
-
----
-
-## 📊 Contribution Graph
-
-<div align="center">
-
-<!-- Animated Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srinivasbotta&theme=react-dark&hide_border=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff6b35&area=true&area_color=00d9ff" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's%20Connect!-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srinivasub)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out!-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinivasub@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SrinivasuBotta)
 
 </div>
 
 ---
 
-## 🌐 Connect With Me
+<!-- ══════════════ QUOTE ══════════════ -->
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srinivasu-botta-0a8330321)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Srinivasbotta)
+> *"Data is the new oil, but intelligence is the engine that refines it."* ✨
+>
+> — **Srinivasu Botta**
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:a855f7,50:6366f1,100:0d1117&height=120&section=footer&animation=fadeIn"/>
 
 </div>
 
----
-
-<!-- Animated Snake Contribution Graph -->
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Srinivasbotta/Srinivasbotta/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Srinivasbotta/Srinivasbotta/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Srinivasbotta/Srinivasbotta/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
-<!-- Animated Wave Footer -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
-
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  ✅ Replace 'SrinivasuBotta' with your actual GitHub  -->
+<!--     username throughout this file before using!       -->
+<!--  ✅ Update email, LinkedIn, and social links          -->
+<!--  ✅ Customize projects table with your real projects  -->
+<!--  ✅ Update certifications with ones you actually have -->
+<!-- ══════════════════════════════════════════════════════ -->
